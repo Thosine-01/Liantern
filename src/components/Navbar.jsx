@@ -78,10 +78,10 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div className={` bg-white absolute  flex flex-col w-full left-0 top-20 py-10 border-b-2 border-b-gray-500 ${menu ? "block transition-all duration-1000 ease-out" : "hidden"} `}>
           <ul className="text-black  flex flex-col items-center w-full justify-center pb-8 space-y-6 text-xl font-bold">
-            <li className="hover:text-amber-600">Home</li>
-            <li className="hover:text-amber-600">About</li>
-            <li className="hover:text-amber-600">Services</li>
-            <li className="hover:text-amber-600">Contact</li>
+            <li className="hover:text-amber-600"><a href="#hero">Home</a></li>
+            <li className="hover:text-amber-600"><a href="#about">About</a></li>
+            <li className="hover:text-amber-600"><a href="#services">Services</a></li>
+            <li className="hover:text-amber-600"><a href="#contact">Contact</a></li>
           </ul>
 
             <button className=' bg-orange-400 text-white px-4 py-2 rounded-md hover:bg-orange-500 transition w-8/12 mx-auto text-xl'>

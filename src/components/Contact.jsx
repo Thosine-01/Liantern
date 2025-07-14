@@ -2,10 +2,10 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className="py-20 bg-gray-100 px-36">
+    <section className="py-20 bg-gray-100 md:px-36" id="contact">
       <div className="container mx-auto px-4 flex flex-col lg:flex-row gap-10 items-center">
         {/* Left Contact Info */}
-        <div className="w-full lg:w-1/2 space-y-6">
+        <div className="w-full lg:w-1/2 space-y-6 px-6 md:px-0">
           
           <div>
             <h2 className="text-4xl font-bold text-gray-800 leading-tight">

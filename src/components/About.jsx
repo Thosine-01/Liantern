@@ -4,10 +4,10 @@ import Feature from './Feature'
 
 const About = () => {
   return (
-        <section className="py-20 bg-white px-26">
+        <section className="pt-20 bg-white  md:px-26" id="about">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10">
         {/* Left Text */}
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 text-center md:text-left">
           <p className="text-sm uppercase text-gray-400 font-semibold mb-2">About Us</p>
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-4">
             What we are all about
