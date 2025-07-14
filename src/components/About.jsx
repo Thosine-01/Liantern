@@ -1,0 +1,40 @@
+import React from 'react'
+import { assets } from '../assets/assets'
+import Feature from './Feature'
+
+const About = () => {
+  return (
+        <section className="py-20 bg-white px-26">
+      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10">
+        {/* Left Text */}
+        <div className="md:w-1/2">
+          <p className="text-sm uppercase text-gray-400 font-semibold mb-2">About Us</p>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-4">
+            What we are all about
+          </h2>
+          <p className="text-gray-700 text-lg mb-6">
+            Gravida vulputate aliquet tempor siteque sed pretium non urna sed etid
+            aenean haret. Quam adipiscing penatibus aliquam gravida elementum
+            aliquet eget senectus felis enim diam molestie.
+          </p>
+          <button className="bg-orange-400 hover:bg-orange-500 text-black font-semibold px-6 py-3 rounded-md transition duration-300">
+            Order Now →
+          </button>
+        </div>
+
+        {/* Right Image */}
+        <div className="md:w-1/2 relative">
+          <img
+            src={assets.about_Image}
+            alt="How it works"
+            className="w-full rounded-lg shadow-md"
+          />
+
+        </div>
+      </div>
+      <Feature />
+    </section>
+  )
+}
+
+export default About
