@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { Menu } from 'lucide-react';
 import { X } from 'lucide-react';
 import React from 'react'
+import { assets } from "../assets/assets";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,8 +32,12 @@ const Navbar = () => {
         isScrolled ? "bg-white shadow-md transition ease-out duration-300" : "bg-white md:bg-transparent"}`}>
       <nav className="container mx-auto px-7 md:px-24 py-4 flex justify-between items-center">
         {/* Logo */}
-        <div className={`text-3xl font-bold tracking-tight ${isScrolled ? "text-black" : "text-black md:text-white"}`}>
-          LianTern
+        <div className={` font-bold tracking-tight ${isScrolled ? "text-black" : "text-black md:text-white"}`}>
+          {isScrolled ?
+            <img src={assets.lightlogo} alt="" className="w-36" />
+          :
+            <img src={assets.darklogo} alt="" className="w-36"/>
+          }
         </div>
 
         {/* Nav Links */}

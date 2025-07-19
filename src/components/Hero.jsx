@@ -20,17 +20,17 @@ const Hero = () => {
       <div className="absolute inset-0 flex items-center justify-center text-center">
         <div className="max-w-2xl">
           <p className="text-4xl mb-2  md:text-[56px] font-bold">Welcome to Liantern</p>
-          <h1 className="text-2xl md:text-3xl font-semibold leading-tight mb-6">
-            Lorem ipsum dolor sit amet.
+          <h1 className="text-xl md:text-2xl font-semibold leading-tight mb-6">
+            Where Knowledge Shines Brightest.
           </h1>
           <p className="text-gray-200 text-lg mb-8">
-            Academic and technical support for students, researchers, and educators worldwide.
+            Academic, scholarly, and technical support tailored for students, researchers, and educators around the world.
           </p>
           <a
             href="#services"
             className="inline-block bg-orange-500 px-6 py-3 rounded-md text-lg font-semibold hover:bg-orange-600 transition"
           >
-            → Get Started
+            → Chat with Us on WhatsApp
           </a>
         </div>
       </div>

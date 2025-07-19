@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className="py-20 bg-gray-100 md:px-36" id="contact">
+    <section className="pt-40 pb-32  bg-gray-100 md:px-36" id="contact">
       <div className="container mx-auto px-4 flex flex-col lg:flex-row gap-10 items-center">
         {/* Left Contact Info */}
         <div className="w-full lg:w-1/2 space-y-6 px-6 md:px-0">
@@ -12,7 +12,7 @@ const Contact = () => {
             We’re here to help.
             </h2>
             <p className="text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Have a question or need immediate assistance with your academic work? Get in touch with our team today. We’re always happy to help and guide you on your academic journey!
             </p>
             <div className='border-3 border-amber-500 w-3/12 mt-3'/>
           </div>
@@ -45,17 +45,8 @@ const Contact = () => {
                   className="w-full border rounded px-4 py-2 focus:outline-none bg-gray-50"
                 />
               </div>
-              <div className="w-full">
-                <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Company
-                </label>
-                <input
-                  type="text"
-                  placeholder="Company"
-                  className="w-full border rounded px-4 py-2 focus:outline-none bg-gray-50"
-                />
-              </div>
             </div>
+  
 
             {/* Row 2 */}
             <div className="flex flex-col md:flex-row gap-4">

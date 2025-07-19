@@ -1,4 +1,5 @@
 import React from 'react'
+import { assets } from '../assets/assets'
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
           <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 text-sm '>
               <div>
                   <div className="text-3xl font-bold text-amber-50 tracking-tight mb-3">
-                  LianTern
+                    <img src={assets.lightlogo} alt="" className='w-36'/>
                   </div>
                   <p className='w-full sm:w-2/3 text-amber-50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error eos aliquam voluptates illum ipsa, eveniet quae commodi dolores voluptas.</p>
               </div>

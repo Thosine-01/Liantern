@@ -6,38 +6,37 @@ const services = [
     icon: <BadgeCheck size={30} />,
     title: "Research & White paper Writing",
     description:
-      "Gravida vulputate aliquet tempor sitque sed pretium non urna sed etid aenean hartera quam placerat adipiscing.",
+      "Crafting meticulously researched documents that articulate your ideas with clarity and precision.",
   },
   {
     icon: <BadgeCheck size={30} />,
-    title: "Thesis & Dissertation SUpport",
+    title: "Thesis & Dissertation Support",
     description:
-      "Gravida vulputate aliquet tempor sitque sed pretium non urna sed etid aenean hartera quam placerat adipiscing.",
+      "From concept to completion, we provide hands-on assistance to help you develop robust, comprehensive, and well-structured projects.",
   },
   {
     icon: <BadgeCheck size={30} />,
     title: "Automated Academic tools",
     description:
-      "Gravida vulputate aliquet tempor sitque sed pretium non urna sed etid aenean hartera quam placerat adipiscing.",
+      "Boost your productivity with innovative tools that streamline your research and enhance the quality of your work.",
   },
   {
     icon: <BadgeCheck size={30} />,
     title: "Support Assistance",
     description:
-      "Gravida vulputate aliquet tempor sitque sed pretium non urna sed etid aenean hartera quam placerat adipiscing.",
+      "Personalized guidance for overcoming academic challenges—from brainstorming ideas to refining final drafts.",
   },
 ];
 
 const Service = () => {
   return (
-    <section className=" pt-20 pb-20 bg-white text-center md:px-36" id="services">
+    <section className=" pt-40 pb-32 bg-white text-center md:px-36" id="services">
       <p className="text-sm text-gray-400 uppercase px-5 md:px-0">Our Services</p>
       <h2 className="text-3xl font-bold text-gray-800 mb-4 px-5 md:px-0">
         Our Writing Services
       </h2>
       <p className="text-gray-500 max-w-xl mx-auto mb-12 text-sm leading-relaxed px-5 md:px-0">
-        Gravida vulputate aliquet tempor sitque sed pretium nonurna etid aenean
-        hartera quam placerat adipiscing penatibus aliquam
+        Our expert team curates a suite of services designed to meet your academic and research needs:
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[720px] mx-auto px-4">
