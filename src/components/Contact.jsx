@@ -3,18 +3,18 @@ import React from 'react'
 const Contact = () => {
   return (
     <section className="pt-40 pb-32  bg-gray-100 md:px-36" id="contact">
-      <div className="container mx-auto px-4 flex flex-col lg:flex-row gap-10 items-center">
+      <div className="container mx-auto px-4">
         {/* Left Contact Info */}
-        <div className="w-full lg:w-1/2 space-y-6 px-6 md:px-0">
+        <div className="space-y-6 px-6 md:px-0 text-center">
           
-          <div>
+          <div className=''>
             <h2 className="text-4xl font-bold text-gray-800 leading-tight">
             We’re here to help.
             </h2>
             <p className="text-gray-600">
-            Have a question or need immediate assistance with your academic work? Get in touch with our team today. We’re always happy to help and guide you on your academic journey!
+            Are you also Struggling with your academics, you can also speak with us here for tips and guidance for free.
             </p>
-            <div className='border-3 border-amber-500 w-3/12 mt-3'/>
+            <div className='border-3 border-amber-500 mx-16 md:mx-[20rem] mt-3 '/>
           </div>
 
 
@@ -31,9 +31,9 @@ const Contact = () => {
         </div>
 
         {/* Right Contact Form */}
-        <div className="w-full lg:w-1/2 bg-white shadow-md rounded-md p-6">
+        {/*<div className="w-full lg:w-1/2 bg-white shadow-md rounded-md p-6">
           <form className="space-y-4">
-            {/* Row 1 */}
+           
             <div className="flex flex-col md:flex-row gap-4">
               <div className="w-full">
                 <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -48,7 +48,7 @@ const Contact = () => {
             </div>
   
 
-            {/* Row 2 */}
+            
             <div className="flex flex-col md:flex-row gap-4">
               <div className="w-full">
                 <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -72,7 +72,7 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Subject */}
+           
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 Subject
@@ -84,7 +84,7 @@ const Contact = () => {
               />
             </div>
 
-            {/* Message */}
+            
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 Message
@@ -96,18 +96,18 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            {/* Submit */}
+            
             <div>
               <button
                 type="submit"
                 className="bg-amber-600 text-white font-semibold px-6 py-3 w-full rounded hover:bg-red-600 transition flex items-center justify-center gap-2"
               >
-                {/*<FaEnvelope />*/}
+                
                 Submit
               </button>
             </div>
           </form>
-        </div>
+        </div>*/}
       </div>
     </section>
   )

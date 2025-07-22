@@ -1,5 +1,8 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import { Linkedin } from 'lucide-react';
+import { Instagram } from 'lucide-react';
+import { Twitter } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -29,8 +32,13 @@ const Footer = () => {
               </div>
           </div>
 
-          <div className='border-t border-amber-50 mt-5'>
+          <div className='border-t border-amber-50 mt-5 flex flex-col md:flex-row  justify-center gap-20 items-center pt-5'>
               <p className='text-center text-amber-50 mt-5'>© 2023 LianTern. All rights reserved.</p>
+              <div className='flex justify-center gap-5 mt-5'>
+                  <Linkedin className='text-amber-50 hover:text-amber-600' size={20}/>
+                  <Instagram className='text-amber-50 hover:text-amber-600' size={20}/>
+                  <Twitter className='text-amber-50 hover:text-amber-600' size={20}/>
+              </div>
           </div>
         </div>
 

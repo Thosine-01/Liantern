@@ -3,6 +3,7 @@ import { Menu } from 'lucide-react';
 import { X } from 'lucide-react';
 import React from 'react'
 import { assets } from "../assets/assets";
+import { MessageCircleMore } from 'lucide-react';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -66,8 +67,9 @@ const Navbar = () => {
             </ul>
 
             {/* Action Button */}
-            <button className='hidden md:block bg-orange-400 text-white px-4 py-2 rounded-md hover:bg-orange-500 transition'>
-                Order Now
+            <button className='hidden md:block bg-orange-400 text-white px-4 py-2 rounded-md hover:bg-orange-500 transition '>
+               <MessageCircleMore size={20} className="inline-block mr-2 mt-[-6px] text-amber-50" />
+                Chat With Us
             </button>
         </div>
 
@@ -90,6 +92,7 @@ const Navbar = () => {
           </ul>
 
             <button className=' bg-orange-400 text-white px-4 py-2 rounded-md hover:bg-orange-500 transition w-8/12 mx-auto text-xl'>
+              <MessageCircleMore size={20} className="inline-block mr-2 text-amber-50" />
                 Order Now
             </button>
           
