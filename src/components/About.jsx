@@ -1,10 +1,11 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 import Feature from './Feature'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
-        <section className="pt-32 bg-white  md:px-26" id="about">
+        <section className="pt-20 md:pt-32 bg-white  md:px-26" id="about">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10">
         {/* Left Text */}
         <div className="md:w-1/2 text-center md:text-left">
@@ -15,9 +16,12 @@ const About = () => {
           <p className="text-gray-700 text-lg mb-6">
             At Liantern, we’re passionate about empowering students, researchers, and educators around the world with top-tier academic and research support. Whether you need guidance on your thesis, dissertation, or writing projects, our experienced team is here to help you shine
           </p>
+
+          <Link to="https://wa.me/message/TWO7OKUXB3JTE1">
           <button className="bg-orange-400 hover:bg-orange-500 text-white font-semibold px-6 py-3 rounded-md transition duration-300">
             Chat With Us →
           </button>
+          </Link>
         </div>
 
         {/* Right Image */}

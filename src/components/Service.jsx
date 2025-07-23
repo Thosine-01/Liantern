@@ -30,7 +30,7 @@ const services = [
 
 const Service = () => {
   return (
-    <section className=" pt-40 pb-32 bg-white text-center md:px-36" id="services">
+    <section className="pt-20 md:pt-40 pb-32 bg-white text-center md:px-36" id="services">
       <p className="text-sm text-gray-400 uppercase px-5 md:px-0">Our Services</p>
       <h2 className="text-3xl font-bold text-gray-800 mb-4 px-5 md:px-0">
         Our Writing Services

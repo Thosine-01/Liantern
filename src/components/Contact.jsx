@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className="pt-40 pb-32  bg-gray-100 md:px-36" id="contact">
+    <section className="pt-20 md:pt-40 pb-32  bg-gray-100 md:px-36" id="contact">
       <div className="container mx-auto px-4">
         {/* Left Contact Info */}
         <div className="space-y-6 px-6 md:px-0 text-center">
@@ -21,12 +21,12 @@ const Contact = () => {
 
           <div>
             <h4 className="font-semibold text-lg text-gray-800 mb-1">Email</h4>
-            <p className="text-gray-600">support@yourdomain.tld</p>
+            <p className="text-gray-600">strynderhelp@gmail.com</p>
           </div>
 
           <div>
             <h4 className="font-semibold text-lg text-gray-800 mb-1">Phone</h4>
-            <p className="text-gray-600">+(62)21 2002-2012</p>
+            <p className="text-gray-600">+234 810 784 4964</p>
           </div>
         </div>
 

@@ -4,21 +4,21 @@ import { BadgeCheck } from 'lucide-react';
 const features = [
   {
     title: "Experienced & Certified",
-    description: "Facilisi risus faucibus platea sit risus lorem proin molestie nibh",
+    description: "A qualified team guiding your academic journey.",
     bg: "bg-white",
     textColor: "text-[#0F172A]",
     iconBg: "text-green-500",
   },
   {
-    title: "We Focus on Well Organize Content.",
-    description: "Facilisi risus faucibus platea sit risus lorem proin molestie nibh",
+    title: "Well-Organized & Clear Content.",
+    description: "We prioritize structure and clarity to ensure a Well-organized writing from start to finish.",
     bg: "bg-white",
     textColor: "text-[#0F172A]",
     iconBg: "text-green-500",
   },
   {
     title: "Always Deliver On Time.",
-    description: "Facilisi risus faucibus platea sit risus lorem proin molestie nibh",
+    description: "We understand deadlines. That’s why we deliver quality work promptly—no delays, no stress.",
     bg: "bg-[#ff8904]",
     textColor: "text-white",
     iconBg: "text-white",

@@ -30,7 +30,7 @@ const Hero = () => {
             href="#services"
             className="inline-block bg-orange-500 px-6 py-3 rounded-md text-lg font-semibold hover:bg-orange-600 transition"
           >
-            → Chat with Us on WhatsApp
+            → Check Out Our Services
           </a>
         </div>
       </div>

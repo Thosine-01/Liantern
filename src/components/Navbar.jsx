@@ -4,6 +4,7 @@ import { X } from 'lucide-react';
 import React from 'react'
 import { assets } from "../assets/assets";
 import { MessageCircleMore } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -67,10 +68,12 @@ const Navbar = () => {
             </ul>
 
             {/* Action Button */}
+            <Link to="https://wa.me/message/TWO7OKUXB3JTE1">
             <button className='hidden md:block bg-orange-400 text-white px-4 py-2 rounded-md hover:bg-orange-500 transition '>
-               <MessageCircleMore size={20} className="inline-block mr-2 mt-[-6px] text-amber-50" />
+               {/*<MessageCircleMore size={20} className="inline-block mr-2 mt-[-6px] text-amber-50" />*/}
                 Chat With Us
-            </button>
+              </button>
+            </Link>
         </div>
 
 
@@ -91,10 +94,14 @@ const Navbar = () => {
             <li className="hover:text-amber-600"><a href="#contact">Contact</a></li>
           </ul>
 
+          <Link to="https://wa.me/message/TWO7OKUXB3JTE1">
             <button className=' bg-orange-400 text-white px-4 py-2 rounded-md hover:bg-orange-500 transition w-8/12 mx-auto text-xl'>
-              <MessageCircleMore size={20} className="inline-block mr-2 text-amber-50" />
+                {/*<MessageCircleMore size={20} className="inline-block mr-2 text-amber-50" />*/}
                 Order Now
-            </button>
+              </button>
+          </Link>
+          
+
           
         </div>
 
