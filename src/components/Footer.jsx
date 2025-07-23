@@ -17,10 +17,10 @@ const Footer = () => {
               <div>
                   <p className='text-xl font-medium mb-5 text-amber-50'>COMPANY</p>
                   <ul className='flex flex-col gap-1 text-amber-50'>
-                      <li>Home</li>
-                      <li>About</li>
-                      <li>Services</li>
-                      <li>Order Now</li>
+                      <li className=''><a href="#hero">Home</a></li>
+                      <li className=''><a href="#about">About</a></li>
+                      <li className=''><a href="#services">Services</a></li>
+                      <li className=''><a href="https://wa.me/message/TWO7OKUXB3JTE1">Chat With Us</a></li>
                   </ul>
               </div>
               <div>
