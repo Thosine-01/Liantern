@@ -17,23 +17,23 @@ const Footer = () => {
               <div>
                   <p className='text-xl font-medium mb-5 text-amber-50'>COMPANY</p>
                   <ul className='flex flex-col gap-1 text-amber-50'>
-                      <li className=''><a href="#hero">Home</a></li>
-                      <li className=''><a href="#about">About</a></li>
-                      <li className=''><a href="#services">Services</a></li>
-                      <li className=''><a href="https://wa.me/message/TWO7OKUXB3JTE1">Chat With Us</a></li>
+                      <li className='hover:text-amber-600'><a href="#hero">Home</a></li>
+                      <li className='hover:text-amber-600'><a href="#about">About</a></li>
+                      <li className='hover:text-amber-600'><a href="#services">Services</a></li>
+                      <li className='hover:text-amber-600'><a href="https://wa.me/message/TWO7OKUXB3JTE1">Chat With Us</a></li>
                   </ul>
               </div>
               <div>
                 <p className='text-xl font-medium mb-5 text-amber-50'>GET IN TOUCH</p>
                 <ul className='flex flex-col gap-1 text-amber-50'>
-                  <li>support@gmail.com</li>
-                  <li>+234 906 555 5677</li>
+                  <li>strynderhelp@gmail.com</li>
+                  <li>+234 810 784 4964</li>
                 </ul>
               </div>
           </div>
 
           <div className='border-t border-amber-50 mt-5 flex flex-col md:flex-row  justify-center gap-20 items-center pt-5'>
-              <p className='text-center text-amber-50 mt-5'>© 2023 LianTern. All rights reserved.</p>
+              <p className='text-center text-amber-50 mt-5'>© 2025 Liantern. All rights reserved.</p>
               {/*<div className='flex justify-center gap-5 mt-5'>
                   <Linkedin className='text-amber-50 hover:text-amber-600' size={20}/>
                   <Instagram className='text-amber-50 hover:text-amber-600' size={20}/>
