@@ -94,12 +94,16 @@ const Navbar = () => {
             <li className="hover:text-amber-600"><a href="#contact">Contact</a></li>
           </ul>
 
+
+          <div className="flex justify-center items-center w-full">
           <Link to="https://wa.me/message/TWO7OKUXB3JTE1">
-            <button className=' bg-orange-400 text-white px-4 py-2 rounded-md hover:bg-orange-500 transition w-8/12 mx-auto text-xl'>
+            <button className=' bg-orange-400 text-white px-4 py-2 rounded-md hover:bg-orange-500 transition text-xl'>
                 {/*<MessageCircleMore size={20} className="inline-block mr-2 text-amber-50" />*/}
-                Order Now
+                Chat With Us
               </button>
           </Link>
+          </div>
+
           
 
           
